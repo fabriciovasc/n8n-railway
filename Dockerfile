@@ -2,4 +2,5 @@ FROM n8nio/n8n:latest
 
 ENV N8N_PORT=5678
 ENV N8N_HOST=0.0.0.0
-ENV WEBHOOK_URL=https://fabriciovasc-n8n.up.railway.app
+ENV N8N_PROTOCOL=https
+ENV WEBHOOK_URL=https://n8n-railway-production-a927f.up.railway.app
